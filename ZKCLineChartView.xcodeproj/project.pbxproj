@@ -6,10 +6,41 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		048B39441C99A2A600D50563 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 048B39451C99A2A600D50563 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				048B394A1C99A2CD00D50563 /* MultiPlatform Build */,
+			);
+			dependencies = (
+				048B39491C99A2C100D50563 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		048B39291C999E8700D50563 /* ZKCLineChartView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 048B39281C999E8700D50563 /* ZKCLineChartView.h */; };
-		048B392B1C999E8700D50563 /* ZKCLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B392A1C999E8700D50563 /* ZKCLineChartView.m */; };
+		048B393A1C999EAA00D50563 /* ZKCChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B39331C999EAA00D50563 /* ZKCChartLabel.m */; };
+		048B393B1C999EAA00D50563 /* ZKCLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B39351C999EAA00D50563 /* ZKCLineChart.m */; };
+		048B393C1C999EAA00D50563 /* ZKCLineChartConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B39371C999EAA00D50563 /* ZKCLineChartConst.m */; };
+		048B393D1C999EAA00D50563 /* ZKCLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B39391C999EAA00D50563 /* ZKCLineChartView.m */; };
+		048B393F1C999EEC00D50563 /* ZKCChartLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 048B39321C999EAA00D50563 /* ZKCChartLabel.h */; };
+		048B39401C999EEF00D50563 /* ZKCLineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 048B39341C999EAA00D50563 /* ZKCLineChart.h */; };
+		048B39411C999EF300D50563 /* ZKCLineChartConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 048B39361C999EAA00D50563 /* ZKCLineChartConst.h */; };
+		048B39421C999EF600D50563 /* ZKCLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 048B39381C999EAA00D50563 /* ZKCLineChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048B39481C99A2C100D50563 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048B391D1C999E8700D50563 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048B39241C999E8700D50563;
+			remoteInfo = ZKCLineChartView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		048B39231C999E8700D50563 /* CopyFiles */ = {
@@ -18,7 +49,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				048B39291C999E8700D50563 /* ZKCLineChartView.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +56,14 @@
 
 /* Begin PBXFileReference section */
 		048B39251C999E8700D50563 /* libZKCLineChartView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZKCLineChartView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		048B39281C999E8700D50563 /* ZKCLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKCLineChartView.h; sourceTree = "<group>"; };
-		048B392A1C999E8700D50563 /* ZKCLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKCLineChartView.m; sourceTree = "<group>"; };
+		048B39321C999EAA00D50563 /* ZKCChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCChartLabel.h; sourceTree = "<group>"; };
+		048B39331C999EAA00D50563 /* ZKCChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCChartLabel.m; sourceTree = "<group>"; };
+		048B39341C999EAA00D50563 /* ZKCLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCLineChart.h; sourceTree = "<group>"; };
+		048B39351C999EAA00D50563 /* ZKCLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCLineChart.m; sourceTree = "<group>"; };
+		048B39361C999EAA00D50563 /* ZKCLineChartConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCLineChartConst.h; sourceTree = "<group>"; };
+		048B39371C999EAA00D50563 /* ZKCLineChartConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCLineChartConst.m; sourceTree = "<group>"; };
+		048B39381C999EAA00D50563 /* ZKCLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCLineChartView.h; sourceTree = "<group>"; };
+		048B39391C999EAA00D50563 /* ZKCLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCLineChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +96,41 @@
 		048B39271C999E8700D50563 /* ZKCLineChartView */ = {
 			isa = PBXGroup;
 			children = (
-				048B39281C999E8700D50563 /* ZKCLineChartView.h */,
-				048B392A1C999E8700D50563 /* ZKCLineChartView.m */,
+				048B39311C999EAA00D50563 /* ZKCLineChart */,
 			);
 			path = ZKCLineChartView;
 			sourceTree = "<group>";
 		};
+		048B39311C999EAA00D50563 /* ZKCLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				048B39321C999EAA00D50563 /* ZKCChartLabel.h */,
+				048B39331C999EAA00D50563 /* ZKCChartLabel.m */,
+				048B39341C999EAA00D50563 /* ZKCLineChart.h */,
+				048B39351C999EAA00D50563 /* ZKCLineChart.m */,
+				048B39361C999EAA00D50563 /* ZKCLineChartConst.h */,
+				048B39371C999EAA00D50563 /* ZKCLineChartConst.m */,
+				048B39381C999EAA00D50563 /* ZKCLineChartView.h */,
+				048B39391C999EAA00D50563 /* ZKCLineChartView.m */,
+			);
+			path = ZKCLineChart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		048B393E1C999ED400D50563 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048B39421C999EF600D50563 /* ZKCLineChartView.h in Headers */,
+				048B393F1C999EEC00D50563 /* ZKCChartLabel.h in Headers */,
+				048B39401C999EEF00D50563 /* ZKCLineChart.h in Headers */,
+				048B39411C999EF300D50563 /* ZKCLineChartConst.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		048B39241C999E8700D50563 /* ZKCLineChartView */ = {
@@ -76,6 +140,8 @@
 				048B39211C999E8700D50563 /* Sources */,
 				048B39221C999E8700D50563 /* Frameworks */,
 				048B39231C999E8700D50563 /* CopyFiles */,
+				048B393E1C999ED400D50563 /* Headers */,
+				048B39431C99A10E00D50563 /* Build Framework */,
 			);
 			buildRules = (
 			);
@@ -98,6 +164,9 @@
 					048B39241C999E8700D50563 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					048B39441C99A2A600D50563 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 048B39201C999E8700D50563 /* Build configuration list for PBXProject "ZKCLineChartView" */;
@@ -113,20 +182,63 @@
 			projectRoot = "";
 			targets = (
 				048B39241C999E8700D50563 /* ZKCLineChartView */,
+				048B39441C99A2A600D50563 /* Framework */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		048B39431C99A10E00D50563 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		048B394A1C99A2CD00D50563 /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		048B39211C999E8700D50563 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048B392B1C999E8700D50563 /* ZKCLineChartView.m in Sources */,
+				048B393A1C999EAA00D50563 /* ZKCChartLabel.m in Sources */,
+				048B393B1C999EAA00D50563 /* ZKCLineChart.m in Sources */,
+				048B393D1C999EAA00D50563 /* ZKCLineChartView.m in Sources */,
+				048B393C1C999EAA00D50563 /* ZKCLineChartConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048B39491C99A2C100D50563 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048B39241C999E8700D50563 /* ZKCLineChartView */;
+			targetProxy = 048B39481C99A2C100D50563 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		048B392C1C999E8700D50563 /* Debug */ = {
@@ -165,7 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -202,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -212,18 +324,38 @@
 		048B392F1C999E8700D50563 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Debug;
 		};
 		048B39301C999E8700D50563 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		048B39461C99A2A600D50563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		048B39471C99A2A600D50563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -244,6 +376,14 @@
 			buildConfigurations = (
 				048B392F1C999E8700D50563 /* Debug */,
 				048B39301C999E8700D50563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		048B39451C99A2A600D50563 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048B39461C99A2A600D50563 /* Debug */,
+				048B39471C99A2A600D50563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

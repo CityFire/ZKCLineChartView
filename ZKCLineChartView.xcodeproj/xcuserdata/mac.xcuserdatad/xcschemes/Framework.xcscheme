@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "048B39241C999E8700D50563"
-               BuildableName = "libZKCLineChartView.a"
-               BlueprintName = "ZKCLineChartView"
+               BlueprintIdentifier = "048B39441C99A2A600D50563"
+               BuildableName = "Framework"
+               BlueprintName = "Framework"
                ReferencedContainer = "container:ZKCLineChartView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "048B39241C999E8700D50563"
-            BuildableName = "libZKCLineChartView.a"
-            BlueprintName = "ZKCLineChartView"
+            BlueprintIdentifier = "048B39441C99A2A600D50563"
+            BuildableName = "Framework"
+            BlueprintName = "Framework"
             ReferencedContainer = "container:ZKCLineChartView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "048B39241C999E8700D50563"
-            BuildableName = "libZKCLineChartView.a"
-            BlueprintName = "ZKCLineChartView"
+            BlueprintIdentifier = "048B39441C99A2A600D50563"
+            BuildableName = "Framework"
+            BlueprintName = "Framework"
             ReferencedContainer = "container:ZKCLineChartView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
