@@ -3,11 +3,11 @@
 
 ![image](https://github.com/CityFire/ZKCLineChartView/raw/master//1.png)
 
-初始化方法：
-    ZKCLineChartView *chartView = [[ZKCLineChartView alloc] initWithFrame:CGRectMake(0, 80, screenWidth, 347) title:@"理财师推荐客户和佣金每周趋势图" subTitle:[NSString stringWithFormat:@"日期 : %@", _dateString.length > 0 ? _dateString : @""] dataSource:self];
+    初始化方法：
+    ZKCLineChartView *chartView = [[ZKCLineChartView alloc] initWithFrame:CGRectMake(0, 80, screenWidth, 347) title:@"理财师推荐客户和佣金每 周趋势图" subTitle:[NSString stringWithFormat:@"日期 : %@", _dateString.length > 0 ? _dateString : @""] dataSource:self];
     [chartView drawLineChartAnimated:YES];
     
-#数据源方法
+    #数据源方法
     - (NSArray *)getXTitles:(NSArray *)array
     {
         NSMutableArray *xTitles = [NSMutableArray array];
@@ -18,7 +18,7 @@
         return xTitles;
      }
 
-#pragma mark - ZKCLineChartViewDataSource
+     #pragma mark - ZKCLineChartViewDataSource
 
      - (NSArray *)chartConfigAxisXLabel:(ZKCLineChartView *)chartView {
          return [self getXTitles:self.datesArray];
