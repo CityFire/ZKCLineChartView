@@ -1,7 +1,7 @@
 # ZKCLineChartView
 折线图（88财富客户端的Demo）
 
-![image](https://github.com/CityFire/ZKCLineChartView/raw/master//vim-1.png)
+![image](https://github.com/CityFire/ZKCLineChartView/raw/master//1.png)
 
 初始化方法：
 ZKCLineChartView *chartView = [[ZKCLineChartView alloc] initWithFrame:CGRectMake(0, 80, screenWidth, 347) title:@"理财师推荐客户和佣金每周趋势图" subTitle:[NSString stringWithFormat:@"日期 : %@", _dateString.length > 0 ? _dateString : @""] dataSource:self];
